@@ -1,0 +1,165 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+body,html{
+    /* overflow: hidden; */
+    font-family: 'Inter', sans-serif ;
+    
+}
+
+.chat-left{
+    border: 1px solid rgb(211, 210, 210);
+    border-radius: 3px;
+   height: 100vh;
+
+
+}
+
+
+.user-chats{
+height: 100vh;
+overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+    
+}
+
+.user-chats::-webkit-scrollbar{
+    display: none;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+ 
+.textArea{
+height: 100vh;
+overflow-y: scroll; 
+     -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+
+.textArea::-webkit-scrollbar{
+    display: none;
+}
+.text-scroll{
+ 
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+    
+} 
+ .text-scroll::-webkit-scrollbar{
+    display: none;
+}
+
+
+#chats{
+    border: none;
+}
+#call{
+    border: none;
+}
+#share{
+    border: none;
+}
+
+
+
+.col-right{
+    border: 1px solid rgb(211, 210, 210);
+    border-radius: 3px;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.btn{
+    border: none !important;
+}
+
+
+
+
+
+
+.box-visva-one{
+    padding: 20px 8px 20px 20px;
+    background-color: white;
+    border: 1px solid black;border: 1px solid black;
+   min-width: 40% !important;
+    height: 450px !important;
+    margin-bottom: 0px !important;
+    
+
+}
+.box-visva-two{
+    padding: 20px 8px 20px 20px;
+    background-color: white;
+    min-width: 60% !important;
+    height: 450px !important;
+    
+    border-left: none;
+}
+.notification-visva{
+    width: 50% !important;
+    height: 500px !important;
+}
+a{
+    text-decoration: none !important;
+}
+
+.box-visva-two{
+    border: 1px solid black;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+
+}
+
+.box-visva-two::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+
+#dropdown-toggle {
+    display: none;
+  }
+  
+  #dropdown-toggle:checked ~ #dropdown-menu {
+    display: block;
+  }
+
+
+  .animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #130252 0%,
+      #0845a793 29%,
+      #0e022b 67%,
+      #0731c9 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    /* -text-fill-color: transparent; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-weight: bolder;
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
